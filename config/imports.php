@@ -10,9 +10,8 @@ $imports = array(
 		'config.maincontroller',
 		'components.PRN',
 		'config.MainModal',
-		'models.restmodalsettings',
 	),
-	'restapi' => array(
-		'models.restmodal',
+	'controller' => array(
+		'models.modalname',
 	),
 );
