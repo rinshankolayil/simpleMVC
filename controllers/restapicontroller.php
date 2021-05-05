@@ -2,7 +2,7 @@
 
 class RestApiController extends MainController
 {
-	public $restmodal;
+	public $modal;
 	protected $http_origin;
 	protected $allowed_orgins;
 	function __construct()
@@ -31,7 +31,7 @@ class RestApiController extends MainController
 		if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 			$this->create_response(array(), 6);
 		}
-		$this->restmodal = new RestModal();
+		$this->modal = new modalname();
 	}
 	// START **** CHECK OUT THESE FUNCTIONS ****  //
 	// $this->security_check();
