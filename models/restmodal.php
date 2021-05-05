@@ -1,6 +1,6 @@
 <?php
 
-class RestModal extends MainModal
+class ModalName extends MainModal
 {
 	function __construct()
 	{
